@@ -1,0 +1,207 @@
+{
+ "title": "MNB Research Status",
+ "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
+ "url": "https://mnbresearch.github.io/pulseboard/",
+ "generatedAt": 1793864820080,
+ "overall": "operational",
+ "monitors": [
+  {
+   "id": "argus",
+   "name": "ARGUS Earth",
+   "group": "Our apps",
+   "url": "https://mnbresearch.github.io/argus-earth/",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 171,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819667,
+   "certDays": 54,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 171,
+   "p95": 171
+  },
+  {
+   "id": "crewdeck",
+   "name": "CrewDeck demo",
+   "group": "Our apps",
+   "url": "https://mnbresearch.github.io/crewdeck/",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 158,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819672,
+   "certDays": 54,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 158,
+   "p95": 158
+  },
+  {
+   "id": "github",
+   "name": "GitHub",
+   "group": "Platforms",
+   "url": "https://github.com",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 214,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819729,
+   "certDays": 83,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 214,
+   "p95": 214
+  },
+  {
+   "id": "github-api",
+   "name": "GitHub API",
+   "group": "Platforms",
+   "url": "https://api.github.com/zen",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 125,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819642,
+   "certDays": 81,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 125,
+   "p95": 125
+  },
+  {
+   "id": "jsdelivr",
+   "name": "jsDelivr CDN",
+   "group": "Platforms",
+   "url": "https://cdn.jsdelivr.net/npm/satellite.js@6.0.2/package.json",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 130,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819648,
+   "certDays": 184,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 130,
+   "p95": 130
+  },
+  {
+   "id": "usgs",
+   "name": "USGS earthquake feed",
+   "group": "Data sources",
+   "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 176,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819695,
+   "certDays": 114,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 176,
+   "p95": 176
+  },
+  {
+   "id": "celestrak",
+   "name": "CelesTrak",
+   "group": "Data sources",
+   "url": "https://celestrak.org/",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 341,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819861,
+   "certDays": 36,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 341,
+   "p95": 341
+  },
+  {
+   "id": "eonet",
+   "name": "NASA EONET",
+   "group": "Data sources",
+   "url": "https://eonet.gsfc.nasa.gov/api/v3/categories",
+   "type": "http",
+   "state": "up",
+   "ok": true,
+   "ms": 356,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1793864819877,
+   "certDays": 42,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 356,
+   "p95": 356
+  },
+  {
+   "id": "cloudflare-dns",
+   "name": "Cloudflare DNS (TCP 53)",
+   "group": "Network",
+   "url": "1.1.1.1:53",
+   "type": "tcp",
+   "state": "up",
+   "ok": true,
+   "ms": 13,
+   "code": 0,
+   "error": null,
+   "checkedAt": 1793864819535,
+   "certDays": null,
+   "uptime": {
+    "d1": 100,
+    "d7": 100,
+    "d30": 100,
+    "d90": 100
+   },
+   "p50": 13,
+   "p95": 13
+  }
+ ]
+}
