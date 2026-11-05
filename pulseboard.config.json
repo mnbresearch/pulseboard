@@ -1,0 +1,16 @@
+{
+  "title": "MNB Research Status",
+  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
+  "url": "https://mnbresearch.github.io/pulseboard/",
+  "monitors": [
+    { "id": "argus", "name": "ARGUS Earth", "group": "Our apps", "url": "https://mnbresearch.github.io/argus-earth/", "keyword": "ARGUS" },
+    { "id": "crewdeck", "name": "CrewDeck demo", "group": "Our apps", "url": "https://mnbresearch.github.io/crewdeck/", "keyword": "CrewDeck" },
+    { "id": "github", "name": "GitHub", "group": "Platforms", "url": "https://github.com", "degradedMs": 1500 },
+    { "id": "github-api", "name": "GitHub API", "group": "Platforms", "url": "https://api.github.com/zen", "degradedMs": 1500 },
+    { "id": "jsdelivr", "name": "jsDelivr CDN", "group": "Platforms", "url": "https://cdn.jsdelivr.net/npm/satellite.js@6.0.2/package.json", "keyword": "satellite.js" },
+    { "id": "usgs", "name": "USGS earthquake feed", "group": "Data sources", "url": "https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/significant_week.geojson", "keyword": "FeatureCollection" },
+    { "id": "celestrak", "name": "CelesTrak", "group": "Data sources", "url": "https://celestrak.org/", "degradedMs": 3000 },
+    { "id": "eonet", "name": "NASA EONET", "group": "Data sources", "url": "https://eonet.gsfc.nasa.gov/api/v3/categories", "timeoutMs": 20000, "degradedMs": 5000 },
+    { "id": "cloudflare-dns", "name": "Cloudflare DNS (TCP 53)", "group": "Network", "type": "tcp", "host": "1.1.1.1", "port": 53 }
+  ]
+}
