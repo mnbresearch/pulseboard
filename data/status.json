@@ -2,7 +2,7 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1794277100436,
+ "generatedAt": 1794304755756,
  "overall": "operational",
  "monitors": [
   {
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 204,
+   "ms": 161,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100079,
+   "checkedAt": 1794304755303,
    "certDays": 49,
    "uptime": {
     "d1": 100,
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 162,
+   "ms": 141,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100048,
+   "checkedAt": 1794304755308,
    "certDays": 49,
    "uptime": {
     "d1": 100,
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 241,
+   "ms": 125,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100128,
+   "checkedAt": 1794304755293,
    "certDays": 78,
    "uptime": {
     "d1": 100,
@@ -79,10 +79,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 154,
+   "ms": 82,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100041,
+   "checkedAt": 1794304755251,
    "certDays": 76,
    "uptime": {
     "d1": 100,
@@ -101,10 +101,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 137,
+   "ms": 347,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100025,
+   "checkedAt": 1794304755517,
    "certDays": 179,
    "uptime": {
     "d1": 100,
@@ -112,8 +112,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 137,
-   "p95": 327
+   "p50": 327,
+   "p95": 347
   },
   {
    "id": "usgs",
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 154,
+   "ms": 60,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100043,
+   "checkedAt": 1794304755232,
    "certDays": 109,
    "uptime": {
     "d1": 100,
@@ -145,19 +145,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 341,
+   "ms": 147,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100231,
+   "checkedAt": 1794304755320,
    "certDays": 31,
    "uptime": {
     "d1": 100,
-    "d7": 95.23809523809523,
-    "d30": 95.23809523809523,
-    "d90": 95.23809523809523
+    "d7": 95.45454545454545,
+    "d30": 95.45454545454545,
+    "d90": 95.45454545454545
    },
-   "p50": 709,
-   "p95": 1162
+   "p50": 341,
+   "p95": 709
   },
   {
    "id": "eonet",
@@ -167,18 +167,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 346,
+   "ms": 352,
    "code": 200,
    "error": null,
-   "checkedAt": 1794277100236,
-   "certDays": 38,
+   "checkedAt": 1794304755526,
+   "certDays": 37,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 346,
+   "p50": 352,
    "p95": 1745
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 16,
+   "ms": 3,
    "code": 0,
    "error": null,
-   "checkedAt": 1794277099907,
+   "checkedAt": 1794304755179,
    "certDays": null,
    "uptime": {
     "d1": 100,
