@@ -2,7 +2,7 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1794417309995,
+ "generatedAt": 1794439706590,
  "overall": "operational",
  "monitors": [
   {
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 313,
+   "ms": 121,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309216,
+   "checkedAt": 1794439705976,
    "certDays": 48,
    "uptime": {
     "d1": 100,
@@ -24,7 +24,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 188,
+   "p50": 172,
    "p95": 313
   },
   {
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 286,
+   "ms": 90,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309203,
+   "checkedAt": 1794439705965,
    "certDays": 48,
    "uptime": {
     "d1": 100,
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 292,
+   "ms": 83,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309210,
+   "checkedAt": 1794439705959,
    "certDays": 77,
    "uptime": {
     "d1": 100,
@@ -79,10 +79,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 267,
+   "ms": 54,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309185,
+   "checkedAt": 1794439705932,
    "certDays": 75,
    "uptime": {
     "d1": 100,
@@ -101,19 +101,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 264,
+   "ms": 308,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309183,
-   "certDays": 172,
+   "checkedAt": 1794439706186,
+   "certDays": 177,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 126,
-   "p95": 297
+   "p50": 297,
+   "p95": 308
   },
   {
    "id": "usgs",
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 234,
+   "ms": 72,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309155,
+   "checkedAt": 1794439705952,
    "certDays": 108,
    "uptime": {
     "d1": 100,
@@ -134,7 +134,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 133,
+   "p50": 174,
    "p95": 234
   },
   {
@@ -145,16 +145,16 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 761,
+   "ms": 323,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309682,
+   "checkedAt": 1794439706204,
    "certDays": 30,
    "uptime": {
-    "d1": 80,
-    "d7": 92.5925925925926,
-    "d30": 92.5925925925926,
-    "d90": 92.5925925925926
+    "d1": 100,
+    "d7": 92.85714285714286,
+    "d30": 92.85714285714286,
+    "d90": 92.85714285714286
    },
    "p50": 556,
    "p95": 761
@@ -167,10 +167,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 479,
+   "ms": 286,
    "code": 200,
    "error": null,
-   "checkedAt": 1794417309401,
+   "checkedAt": 1794439706169,
    "certDays": 36,
    "uptime": {
     "d1": 100,
@@ -179,7 +179,7 @@
     "d90": 100
    },
    "p50": 380,
-   "p95": 948
+   "p95": 479
   },
   {
    "id": "cloudflare-dns",
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 8,
+   "ms": 3,
    "code": 0,
    "error": null,
-   "checkedAt": 1794417308931,
+   "checkedAt": 1794439705887,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -201,7 +201,7 @@
     "d90": 100
    },
    "p50": 8,
-   "p95": 18
+   "p95": 10
   }
  ]
 }
