@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1794777766435,
- "overall": "operational",
+ "generatedAt": 1794791448159,
+ "overall": "partial",
  "monitors": [
   {
    "id": "argus",
@@ -13,18 +13,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 299,
+   "ms": 202,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766169,
-   "certDays": 44,
+   "checkedAt": 1794791446202,
+   "certDays": 43,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 218,
+   "p50": 202,
    "p95": 360
   },
   {
@@ -35,19 +35,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 175,
+   "ms": 174,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766058,
-   "certDays": 44,
+   "checkedAt": 1794791446197,
+   "certDays": 43,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 175,
-   "p95": 201
+   "p50": 174,
+   "p95": 200
   },
   {
    "id": "github",
@@ -57,18 +57,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 187,
+   "ms": 118,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766071,
-   "certDays": 73,
+   "checkedAt": 1794791446142,
+   "certDays": 72,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 110,
+   "p50": 118,
    "p95": 187
   },
   {
@@ -77,20 +77,20 @@
    "group": "Platforms",
    "url": "https://api.github.com/zen",
    "type": "http",
-   "state": "up",
-   "ok": true,
-   "ms": 123,
-   "code": 200,
-   "error": null,
-   "checkedAt": 1794777766007,
-   "certDays": 71,
+   "state": "down",
+   "ok": false,
+   "ms": 75,
+   "code": 403,
+   "error": "HTTP 403",
+   "checkedAt": 1794791448119,
+   "certDays": 70,
    "uptime": {
-    "d1": 100,
-    "d7": 100,
-    "d30": 100,
-    "d90": 100
+    "d1": 80,
+    "d7": 96.42857142857143,
+    "d30": 97.77777777777777,
+    "d90": 97.77777777777777
    },
-   "p50": 123,
+   "p50": 129,
    "p95": 195
   },
   {
@@ -101,18 +101,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 103,
+   "ms": 71,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777765987,
-   "certDays": 173,
+   "checkedAt": 1794791446097,
+   "certDays": 167,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 103,
+   "p50": 95,
    "p95": 362
   },
   {
@@ -123,18 +123,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 123,
+   "ms": 76,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766008,
-   "certDays": 104,
+   "checkedAt": 1794791446103,
+   "certDays": 103,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 119,
+   "p50": 109,
    "p95": 138
   },
   {
@@ -145,16 +145,16 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 313,
+   "ms": 254,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766199,
-   "certDays": 26,
+   "checkedAt": 1794791446281,
+   "certDays": 25,
    "uptime": {
     "d1": 80,
     "d7": 85.71428571428571,
-    "d30": 88.63636363636364,
-    "d90": 88.63636363636364
+    "d30": 88.88888888888889,
+    "d90": 88.88888888888889
    },
    "p50": 313,
    "p95": 1132
@@ -167,10 +167,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 382,
+   "ms": 551,
    "code": 200,
    "error": null,
-   "checkedAt": 1794777766268,
+   "checkedAt": 1794791446579,
    "certDays": 32,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 430,
+   "p50": 505,
    "p95": 2241
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 12,
+   "ms": 7,
    "code": 0,
    "error": null,
-   "checkedAt": 1794777765900,
+   "checkedAt": 1794791446036,
    "certDays": null,
    "uptime": {
     "d1": 100,
