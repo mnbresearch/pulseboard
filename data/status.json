@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1794877653724,
- "overall": "operational",
+ "generatedAt": 1794906506866,
+ "overall": "partial",
  "monitors": [
   {
    "id": "argus",
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 186,
+   "ms": 182,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877653026,
+   "checkedAt": 1794906484815,
    "certDays": 42,
    "uptime": {
     "d1": 100,
@@ -24,8 +24,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 186,
-   "p95": 202
+   "p50": 182,
+   "p95": 186
   },
   {
    "id": "crewdeck",
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 269,
+   "ms": 121,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877653130,
+   "checkedAt": 1794906484774,
    "certDays": 42,
    "uptime": {
     "d1": 100,
@@ -46,7 +46,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 174,
+   "p50": 139,
    "p95": 269
   },
   {
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 103,
+   "ms": 157,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877652965,
+   "checkedAt": 1794906484811,
    "certDays": 71,
    "uptime": {
     "d1": 100,
@@ -69,7 +69,7 @@
     "d90": 100
    },
    "p50": 130,
-   "p95": 216
+   "p95": 157
   },
   {
    "id": "github-api",
@@ -79,19 +79,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 70,
+   "ms": 107,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877652932,
+   "checkedAt": 1794906484762,
    "certDays": 69,
    "uptime": {
-    "d1": 75,
+    "d1": 100,
     "d7": 96.42857142857143,
-    "d30": 97.91666666666666,
-    "d90": 97.91666666666666
+    "d30": 97.95918367346938,
+    "d90": 97.95918367346938
    },
    "p50": 88,
-   "p95": 120
+   "p95": 107
   },
   {
    "id": "jsdelivr",
@@ -101,11 +101,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 74,
+   "ms": 282,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877652937,
-   "certDays": 166,
+   "checkedAt": 1794906484939,
+   "certDays": 172,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -113,7 +113,7 @@
     "d90": 100
    },
    "p50": 74,
-   "p95": 80
+   "p95": 282
   },
   {
    "id": "usgs",
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 65,
+   "ms": 118,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877652929,
+   "checkedAt": 1794906484776,
    "certDays": 102,
    "uptime": {
     "d1": 100,
@@ -135,7 +135,7 @@
     "d90": 100
    },
    "p50": 114,
-   "p95": 126
+   "p95": 118
   },
   {
    "id": "celestrak",
@@ -143,20 +143,20 @@
    "group": "Data sources",
    "url": "https://celestrak.org/",
    "type": "http",
-   "state": "up",
-   "ok": true,
-   "ms": 250,
-   "code": 200,
-   "error": null,
-   "checkedAt": 1794877653115,
+   "state": "down",
+   "ok": false,
+   "ms": 10001,
+   "code": 0,
+   "error": "Timeout after 10000 ms",
+   "checkedAt": 1794906506663,
    "certDays": 24,
    "uptime": {
-    "d1": 100,
-    "d7": 85.71428571428571,
-    "d30": 89.58333333333334,
-    "d90": 89.58333333333334
+    "d1": 66.66666666666666,
+    "d7": 82.14285714285714,
+    "d30": 87.75510204081633,
+    "d90": 87.75510204081633
    },
-   "p50": 295,
+   "p50": 975,
    "p95": 975
   },
   {
@@ -167,19 +167,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 555,
+   "ms": 2554,
    "code": 200,
    "error": null,
-   "checkedAt": 1794877653420,
-   "certDays": 31,
+   "checkedAt": 1794906487214,
+   "certDays": 30,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 555,
-   "p95": 2529
+   "p50": 2529,
+   "p95": 2554
   },
   {
    "id": "cloudflare-dns",
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 7,
+   "ms": 4,
    "code": 0,
    "error": null,
-   "checkedAt": 1794877652873,
+   "checkedAt": 1794906484666,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -200,8 +200,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 7,
-   "p95": 9
+   "p50": 4,
+   "p95": 7
   }
  ]
 }
