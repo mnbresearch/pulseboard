@@ -2,7 +2,7 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1794851403115,
+ "generatedAt": 1794877653724,
  "overall": "operational",
  "monitors": [
   {
@@ -13,19 +13,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 175,
+   "ms": 186,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400636,
-   "certDays": 43,
+   "checkedAt": 1794877653026,
+   "certDays": 42,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 202,
-   "p95": 299
+   "p50": 186,
+   "p95": 202
   },
   {
    "id": "crewdeck",
@@ -35,11 +35,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 139,
+   "ms": 269,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400618,
-   "certDays": 43,
+   "checkedAt": 1794877653130,
+   "certDays": 42,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -47,7 +47,7 @@
     "d90": 100
    },
    "p50": 174,
-   "p95": 175
+   "p95": 269
   },
   {
    "id": "github",
@@ -57,18 +57,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 130,
+   "ms": 103,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400609,
-   "certDays": 72,
+   "checkedAt": 1794877652965,
+   "certDays": 71,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 187,
+   "p50": 130,
    "p95": 216
   },
   {
@@ -79,19 +79,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 88,
+   "ms": 70,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400569,
-   "certDays": 70,
+   "checkedAt": 1794877652932,
+   "certDays": 69,
    "uptime": {
     "d1": 75,
     "d7": 96.42857142857143,
-    "d30": 97.87234042553192,
-    "d90": 97.87234042553192
+    "d30": 97.91666666666666,
+    "d90": 97.91666666666666
    },
-   "p50": 120,
-   "p95": 123
+   "p50": 88,
+   "p95": 120
   },
   {
    "id": "jsdelivr",
@@ -104,16 +104,16 @@
    "ms": 74,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400555,
-   "certDays": 167,
+   "checkedAt": 1794877652937,
+   "certDays": 166,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 80,
-   "p95": 103
+   "p50": 74,
+   "p95": 80
   },
   {
    "id": "usgs",
@@ -123,18 +123,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 114,
+   "ms": 65,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851400597,
-   "certDays": 103,
+   "checkedAt": 1794877652929,
+   "certDays": 102,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 123,
+   "p50": 114,
    "p95": 126
   },
   {
@@ -145,18 +145,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 975,
+   "ms": 250,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851401459,
-   "certDays": 25,
+   "checkedAt": 1794877653115,
+   "certDays": 24,
    "uptime": {
     "d1": 100,
     "d7": 85.71428571428571,
-    "d30": 89.36170212765957,
-    "d90": 89.36170212765957
+    "d30": 89.58333333333334,
+    "d90": 89.58333333333334
    },
-   "p50": 313,
+   "p50": 295,
    "p95": 975
   },
   {
@@ -167,10 +167,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 2529,
+   "ms": 555,
    "code": 200,
    "error": null,
-   "checkedAt": 1794851403014,
+   "checkedAt": 1794877653420,
    "certDays": 31,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 551,
+   "p50": 555,
    "p95": 2529
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 4,
+   "ms": 7,
    "code": 0,
    "error": null,
-   "checkedAt": 1794851400489,
+   "checkedAt": 1794877652873,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -200,8 +200,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 9,
-   "p95": 12
+   "p50": 7,
+   "p95": 9
   }
  ]
 }
