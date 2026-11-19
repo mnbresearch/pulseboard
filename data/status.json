@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795095490217,
- "overall": "degraded",
+ "generatedAt": 1795124789848,
+ "overall": "operational",
  "monitors": [
   {
    "id": "argus",
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 200,
+   "ms": 145,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095483068,
+   "checkedAt": 1795124788142,
    "certDays": 40,
    "uptime": {
     "d1": 100,
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 174,
+   "ms": 127,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095483060,
+   "checkedAt": 1795124788138,
    "certDays": 40,
    "uptime": {
     "d1": 100,
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 80,
+   "ms": 106,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095482967,
+   "checkedAt": 1795124788118,
    "certDays": 69,
    "uptime": {
     "d1": 100,
@@ -68,7 +68,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 137,
+   "p50": 106,
    "p95": 187
   },
   {
@@ -79,19 +79,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 71,
+   "ms": 98,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095482960,
+   "checkedAt": 1795124788111,
    "certDays": 67,
    "uptime": {
     "d1": 100,
     "d7": 96.15384615384616,
-    "d30": 98.21428571428571,
-    "d90": 98.21428571428571
+    "d30": 98.24561403508771,
+    "d90": 98.24561403508771
    },
-   "p50": 127,
-   "p95": 218
+   "p50": 122,
+   "p95": 127
   },
   {
    "id": "jsdelivr",
@@ -101,19 +101,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 97,
+   "ms": 393,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095482987,
-   "certDays": 164,
+   "checkedAt": 1795124788406,
+   "certDays": 169,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 359,
-   "p95": 373
+   "p50": 373,
+   "p95": 393
   },
   {
    "id": "usgs",
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 140,
+   "ms": 167,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095483031,
+   "checkedAt": 1795124788181,
    "certDays": 100,
    "uptime": {
     "d1": 100,
@@ -134,7 +134,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 140,
+   "p50": 167,
    "p95": 186
   },
   {
@@ -143,20 +143,20 @@
    "group": "Data sources",
    "url": "https://celestrak.org/",
    "type": "http",
-   "state": "degraded",
+   "state": "up",
    "ok": true,
-   "ms": 3779,
+   "ms": 606,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095486670,
+   "checkedAt": 1795124788621,
    "certDays": 22,
    "uptime": {
     "d1": 100,
     "d7": 84.61538461538461,
-    "d30": 89.28571428571429,
-    "d90": 89.28571428571429
+    "d30": 89.47368421052632,
+    "d90": 89.47368421052632
    },
-   "p50": 568,
+   "p50": 606,
    "p95": 3779
   },
   {
@@ -165,12 +165,12 @@
    "group": "Data sources",
    "url": "https://eonet.gsfc.nasa.gov/api/v3/categories",
    "type": "http",
-   "state": "degraded",
+   "state": "up",
    "ok": true,
-   "ms": 7043,
+   "ms": 1675,
    "code": 200,
    "error": null,
-   "checkedAt": 1795095489935,
+   "checkedAt": 1795124789691,
    "certDays": 88,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 476,
+   "p50": 1675,
    "p95": 7043
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 8,
+   "ms": 4,
    "code": 0,
    "error": null,
-   "checkedAt": 1795095482901,
+   "checkedAt": 1795124788021,
    "certDays": null,
    "uptime": {
     "d1": 100,
