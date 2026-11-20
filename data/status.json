@@ -2,7 +2,7 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795124789848,
+ "generatedAt": 1795142364485,
  "overall": "operational",
  "monitors": [
   {
@@ -13,18 +13,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 145,
+   "ms": 157,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788142,
-   "certDays": 40,
+   "checkedAt": 1795142362446,
+   "certDays": 39,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 237,
+   "p50": 200,
    "p95": 246
   },
   {
@@ -35,19 +35,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 127,
+   "ms": 369,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788138,
-   "certDays": 40,
+   "checkedAt": 1795142362671,
+   "certDays": 39,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 176,
-   "p95": 229
+   "p50": 229,
+   "p95": 369
   },
   {
    "id": "github",
@@ -57,11 +57,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 106,
+   "ms": 225,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788118,
-   "certDays": 69,
+   "checkedAt": 1795142362528,
+   "certDays": 68,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -69,7 +69,7 @@
     "d90": 100
    },
    "p50": 106,
-   "p95": 187
+   "p95": 225
   },
   {
    "id": "github-api",
@@ -79,19 +79,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 98,
+   "ms": 136,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788111,
-   "certDays": 67,
+   "checkedAt": 1795142362439,
+   "certDays": 66,
    "uptime": {
     "d1": 100,
     "d7": 96.15384615384616,
-    "d30": 98.24561403508771,
-    "d90": 98.24561403508771
+    "d30": 98.27586206896551,
+    "d90": 98.27586206896551
    },
    "p50": 122,
-   "p95": 127
+   "p95": 136
   },
   {
    "id": "jsdelivr",
@@ -101,10 +101,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 393,
+   "ms": 310,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788406,
+   "checkedAt": 1795142362614,
    "certDays": 169,
    "uptime": {
     "d1": 100,
@@ -112,7 +112,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 373,
+   "p50": 310,
    "p95": 393
   },
   {
@@ -123,11 +123,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 167,
+   "ms": 206,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788181,
-   "certDays": 100,
+   "checkedAt": 1795142362511,
+   "certDays": 99,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -135,7 +135,7 @@
     "d90": 100
    },
    "p50": 167,
-   "p95": 186
+   "p95": 206
   },
   {
    "id": "celestrak",
@@ -145,16 +145,16 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 606,
+   "ms": 337,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124788621,
-   "certDays": 22,
+   "checkedAt": 1795142362642,
+   "certDays": 21,
    "uptime": {
     "d1": 100,
-    "d7": 84.61538461538461,
-    "d30": 89.47368421052632,
-    "d90": 89.47368421052632
+    "d7": 88.46153846153845,
+    "d30": 89.65517241379311,
+    "d90": 89.65517241379311
    },
    "p50": 606,
    "p95": 3779
@@ -167,10 +167,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 1675,
+   "ms": 2001,
    "code": 200,
    "error": null,
-   "checkedAt": 1795124789691,
+   "checkedAt": 1795142364307,
    "certDays": 88,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 1675,
+   "p50": 2001,
    "p95": 7043
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 4,
+   "ms": 17,
    "code": 0,
    "error": null,
-   "checkedAt": 1795124788021,
+   "checkedAt": 1795142362323,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -201,7 +201,7 @@
     "d90": 100
    },
    "p50": 8,
-   "p95": 8
+   "p95": 17
   }
  ]
 }
