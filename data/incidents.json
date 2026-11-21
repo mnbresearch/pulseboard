@@ -1,1 +1,16 @@
-[]
+[
+ {
+  "id": "celestrak-1795220170286",
+  "monitorId": "celestrak",
+  "title": "CelesTrak is down",
+  "cause": "Timeout after 10000 ms",
+  "startedAt": 1795200217447,
+  "resolvedAt": null,
+  "updates": [
+   {
+    "t": 1795220170286,
+    "text": "Detected: Timeout after 10000 ms"
+   }
+  ]
+ }
+]
