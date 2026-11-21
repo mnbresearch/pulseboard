@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795220171469,
- "overall": "partial",
+ "generatedAt": 1795245250970,
+ "overall": "operational",
  "monitors": [
   {
    "id": "argus",
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 502,
+   "ms": 187,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148724,
+   "checkedAt": 1795245248174,
    "certDays": 38,
    "uptime": {
     "d1": 100,
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 437,
+   "ms": 161,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148716,
+   "checkedAt": 1795245248171,
    "certDays": 38,
    "uptime": {
     "d1": 100,
@@ -46,7 +46,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 369,
+   "p50": 251,
    "p95": 437
   },
   {
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 410,
+   "ms": 227,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148690,
+   "checkedAt": 1795245248238,
    "certDays": 67,
    "uptime": {
     "d1": 100,
@@ -68,7 +68,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 225,
+   "p50": 227,
    "p95": 410
   },
   {
@@ -79,18 +79,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 266,
+   "ms": 115,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148548,
+   "checkedAt": 1795245248127,
    "certDays": 65,
    "uptime": {
     "d1": 100,
     "d7": 96.15384615384616,
-    "d30": 98.36065573770492,
-    "d90": 98.36065573770492
+    "d30": 98.38709677419355,
+    "d90": 98.38709677419355
    },
-   "p50": 136,
+   "p50": 117,
    "p95": 266
   },
   {
@@ -101,10 +101,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 557,
+   "ms": 119,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148839,
+   "checkedAt": 1795245248132,
    "certDays": 168,
    "uptime": {
     "d1": 100,
@@ -112,7 +112,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 310,
+   "p50": 224,
    "p95": 557
   },
   {
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 230,
+   "ms": 162,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148514,
+   "checkedAt": 1795245248175,
    "certDays": 98,
    "uptime": {
     "d1": 100,
@@ -134,7 +134,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 206,
+   "p50": 175,
    "p95": 230
   },
   {
@@ -143,21 +143,21 @@
    "group": "Data sources",
    "url": "https://celestrak.org/",
    "type": "http",
-   "state": "down",
-   "ok": false,
-   "ms": 10000,
-   "code": 0,
-   "error": "Timeout after 10000 ms",
-   "checkedAt": 1795220170286,
+   "state": "up",
+   "ok": true,
+   "ms": 1978,
+   "code": 200,
+   "error": null,
+   "checkedAt": 1795245249992,
    "certDays": 20,
    "uptime": {
     "d1": 50,
     "d7": 84.61538461538461,
-    "d30": 86.88524590163934,
-    "d90": 86.88524590163934
+    "d30": 87.09677419354838,
+    "d90": 87.09677419354838
    },
-   "p50": 1776,
-   "p95": 1776
+   "p50": 1978,
+   "p95": 1978
   },
   {
    "id": "eonet",
@@ -167,19 +167,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 465,
+   "ms": 361,
    "code": 200,
    "error": null,
-   "checkedAt": 1795220148750,
-   "certDays": 87,
+   "checkedAt": 1795245248375,
+   "certDays": 86,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 904,
-   "p95": 2001
+   "p50": 573,
+   "p95": 904
   },
   {
    "id": "cloudflare-dns",
@@ -192,7 +192,7 @@
    "ms": 11,
    "code": 0,
    "error": null,
-   "checkedAt": 1795220148297,
+   "checkedAt": 1795245248027,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -201,7 +201,7 @@
     "d90": 100
    },
    "p50": 11,
-   "p95": 17
+   "p95": 11
   }
  ]
 }

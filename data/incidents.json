@@ -5,11 +5,15 @@
   "title": "CelesTrak is down",
   "cause": "Timeout after 10000 ms",
   "startedAt": 1795200217447,
-  "resolvedAt": null,
+  "resolvedAt": 1795245249992,
   "updates": [
    {
     "t": 1795220170286,
     "text": "Detected: Timeout after 10000 ms"
+   },
+   {
+    "t": 1795245249992,
+    "text": "Resolved — responding in 1978 ms"
    }
   ]
  }
