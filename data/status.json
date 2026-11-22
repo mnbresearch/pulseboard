@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795308768250,
- "overall": "degraded",
+ "generatedAt": 1795332796374,
+ "overall": "operational",
  "monitors": [
   {
    "id": "argus",
@@ -13,10 +13,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 178,
+   "ms": 166,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761332,
+   "checkedAt": 1795332795809,
    "certDays": 37,
    "uptime": {
     "d1": 100,
@@ -24,8 +24,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 178,
-   "p95": 187
+   "p50": 166,
+   "p95": 178
   },
   {
    "id": "crewdeck",
@@ -35,10 +35,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 176,
+   "ms": 202,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761344,
+   "checkedAt": 1795332795866,
    "certDays": 37,
    "uptime": {
     "d1": 100,
@@ -46,8 +46,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 161,
-   "p95": 176
+   "p50": 176,
+   "p95": 202
   },
   {
    "id": "github",
@@ -57,10 +57,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 212,
+   "ms": 67,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761382,
+   "checkedAt": 1795332795732,
    "certDays": 66,
    "uptime": {
     "d1": 100,
@@ -68,8 +68,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 212,
-   "p95": 227
+   "p50": 67,
+   "p95": 212
   },
   {
    "id": "github-api",
@@ -79,18 +79,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 126,
+   "ms": 54,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761296,
+   "checkedAt": 1795332795720,
    "certDays": 64,
    "uptime": {
     "d1": 75,
     "d7": 92,
-    "d30": 96.92307692307692,
-    "d90": 96.92307692307692
+    "d30": 96.96969696969697,
+    "d90": 96.96969696969697
    },
-   "p50": 115,
+   "p50": 54,
    "p95": 126
   },
   {
@@ -101,10 +101,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 163,
+   "ms": 132,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761334,
+   "checkedAt": 1795332795800,
    "certDays": 161,
    "uptime": {
     "d1": 100,
@@ -123,10 +123,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 140,
+   "ms": 104,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761312,
+   "checkedAt": 1795332795773,
    "certDays": 97,
    "uptime": {
     "d1": 100,
@@ -134,8 +134,8 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 140,
-   "p95": 162
+   "p50": 104,
+   "p95": 140
   },
   {
    "id": "celestrak",
@@ -145,19 +145,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 486,
+   "ms": 88,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308761659,
+   "checkedAt": 1795332795758,
    "certDays": 19,
    "uptime": {
     "d1": 100,
     "d7": 84,
-    "d30": 87.6923076923077,
-    "d90": 87.6923076923077
+    "d30": 87.87878787878788,
+    "d90": 87.87878787878788
    },
-   "p50": 591,
-   "p95": 1978
+   "p50": 486,
+   "p95": 591
   },
   {
    "id": "eonet",
@@ -165,20 +165,20 @@
    "group": "Data sources",
    "url": "https://eonet.gsfc.nasa.gov/api/v3/categories",
    "type": "http",
-   "state": "degraded",
+   "state": "up",
    "ok": true,
-   "ms": 6887,
+   "ms": 439,
    "code": 200,
    "error": null,
-   "checkedAt": 1795308768060,
-   "certDays": 86,
+   "checkedAt": 1795332796111,
+   "certDays": 85,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 361,
+   "p50": 439,
    "p95": 6887
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 13,
+   "ms": 9,
    "code": 0,
    "error": null,
-   "checkedAt": 1795308761187,
+   "checkedAt": 1795332795682,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -200,7 +200,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 11,
+   "p50": 9,
    "p95": 13
   }
  ]
