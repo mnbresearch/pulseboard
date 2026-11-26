@@ -2,8 +2,8 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795634509494,
- "overall": "degraded",
+ "generatedAt": 1795659478507,
+ "overall": "operational",
  "monitors": [
   {
    "id": "argus",
@@ -13,11 +13,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 178,
+   "ms": 198,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500457,
-   "certDays": 34,
+   "checkedAt": 1795659478153,
+   "certDays": 33,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -25,7 +25,7 @@
     "d90": 100
    },
    "p50": 178,
-   "p95": 194
+   "p95": 198
   },
   {
    "id": "crewdeck",
@@ -35,11 +35,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 154,
+   "ms": 233,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500456,
-   "certDays": 34,
+   "checkedAt": 1795659478200,
+   "certDays": 33,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -47,7 +47,7 @@
     "d90": 100
    },
    "p50": 154,
-   "p95": 154
+   "p95": 233
   },
   {
    "id": "github",
@@ -57,11 +57,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 67,
+   "ms": 258,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500369,
-   "certDays": 63,
+   "checkedAt": 1795659478226,
+   "certDays": 62,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -69,7 +69,7 @@
     "d90": 100
    },
    "p50": 178,
-   "p95": 207
+   "p95": 258
   },
   {
    "id": "github-api",
@@ -79,18 +79,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 141,
+   "ms": 140,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500445,
-   "certDays": 61,
+   "checkedAt": 1795659478109,
+   "certDays": 60,
    "uptime": {
     "d1": 100,
     "d7": 95.65217391304348,
-    "d30": 97.36842105263158,
-    "d90": 97.36842105263158
+    "d30": 97.40259740259741,
+    "d90": 97.40259740259741
    },
-   "p50": 136,
+   "p50": 140,
    "p95": 141
   },
   {
@@ -101,10 +101,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 209,
+   "ms": 152,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500514,
+   "checkedAt": 1795659478122,
    "certDays": 163,
    "uptime": {
     "d1": 100,
@@ -112,7 +112,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 143,
+   "p50": 152,
    "p95": 209
   },
   {
@@ -123,18 +123,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 115,
+   "ms": 166,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500421,
-   "certDays": 94,
+   "checkedAt": 1795659478136,
+   "certDays": 93,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 138,
+   "p50": 166,
    "p95": 222
   },
   {
@@ -145,19 +145,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 95,
+   "ms": 316,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634500402,
-   "certDays": 16,
+   "checkedAt": 1795659478287,
+   "certDays": 15,
    "uptime": {
     "d1": 100,
     "d7": 91.30434782608695,
-    "d30": 89.47368421052632,
-    "d90": 89.47368421052632
+    "d30": 89.6103896103896,
+    "d90": 89.6103896103896
    },
    "p50": 95,
-   "p95": 303
+   "p95": 316
   },
   {
    "id": "eonet",
@@ -165,12 +165,12 @@
    "group": "Data sources",
    "url": "https://eonet.gsfc.nasa.gov/api/v3/categories",
    "type": "http",
-   "state": "degraded",
+   "state": "up",
    "ok": true,
-   "ms": 8825,
+   "ms": 398,
    "code": 200,
    "error": null,
-   "checkedAt": 1795634509133,
+   "checkedAt": 1795659478369,
    "certDays": 82,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 1452,
+   "p50": 398,
    "p95": 8825
   },
   {
@@ -192,7 +192,7 @@
    "ms": 8,
    "code": 0,
    "error": null,
-   "checkedAt": 1795634500317,
+   "checkedAt": 1795659477980,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -200,7 +200,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 11,
+   "p50": 8,
    "p95": 54
   }
  ]
