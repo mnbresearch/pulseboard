@@ -2,7 +2,7 @@
  "title": "MNB Research Status",
  "description": "Live status of MNB Research / Abrobot open-source apps and the services they depend on.",
  "url": "https://mnbresearch.github.io/pulseboard/",
- "generatedAt": 1795723470591,
+ "generatedAt": 1795747584130,
  "overall": "operational",
  "monitors": [
   {
@@ -13,18 +13,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 166,
+   "ms": 92,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470095,
-   "certDays": 33,
+   "checkedAt": 1795747581584,
+   "certDays": 32,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 198,
+   "p50": 166,
    "p95": 381
   },
   {
@@ -35,18 +35,18 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 141,
+   "ms": 263,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470090,
-   "certDays": 33,
+   "checkedAt": 1795747581769,
+   "certDays": 32,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 233,
+   "p50": 263,
    "p95": 435
   },
   {
@@ -57,19 +57,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 127,
+   "ms": 57,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470077,
-   "certDays": 62,
+   "checkedAt": 1795747581563,
+   "certDays": 61,
    "uptime": {
     "d1": 100,
     "d7": 100,
     "d30": 100,
     "d90": 100
    },
-   "p50": 127,
-   "p95": 258
+   "p50": 125,
+   "p95": 127
   },
   {
    "id": "github-api",
@@ -79,19 +79,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 87,
+   "ms": 108,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470038,
-   "certDays": 60,
+   "checkedAt": 1795747581615,
+   "certDays": 59,
    "uptime": {
     "d1": 100,
-    "d7": 95.65217391304348,
-    "d30": 97.46835443037975,
-    "d90": 97.46835443037975
+    "d7": 95.45454545454545,
+    "d30": 97.5,
+    "d90": 97.5
    },
-   "p50": 115,
-   "p95": 140
+   "p50": 108,
+   "p95": 115
   },
   {
    "id": "jsdelivr",
@@ -101,11 +101,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 85,
+   "ms": 613,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470036,
-   "certDays": 157,
+   "checkedAt": 1795747582120,
+   "certDays": 162,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -113,7 +113,7 @@
     "d90": 100
    },
    "p50": 144,
-   "p95": 152
+   "p95": 613
   },
   {
    "id": "usgs",
@@ -123,11 +123,11 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 77,
+   "ms": 192,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470030,
-   "certDays": 93,
+   "checkedAt": 1795747581701,
+   "certDays": 92,
    "uptime": {
     "d1": 100,
     "d7": 100,
@@ -135,7 +135,7 @@
     "d90": 100
    },
    "p50": 127,
-   "p95": 166
+   "p95": 192
   },
   {
    "id": "celestrak",
@@ -145,19 +145,19 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 178,
+   "ms": 2035,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470132,
-   "certDays": 15,
+   "checkedAt": 1795747583544,
+   "certDays": 14,
    "uptime": {
     "d1": 100,
-    "d7": 91.30434782608695,
-    "d30": 89.87341772151899,
-    "d90": 89.87341772151899
+    "d7": 90.9090909090909,
+    "d30": 90,
+    "d90": 90
    },
-   "p50": 316,
-   "p95": 372
+   "p50": 372,
+   "p95": 2035
   },
   {
    "id": "eonet",
@@ -167,10 +167,10 @@
    "type": "http",
    "state": "up",
    "ok": true,
-   "ms": 397,
+   "ms": 331,
    "code": 200,
    "error": null,
-   "checkedAt": 1795723470352,
+   "checkedAt": 1795747581840,
    "certDays": 81,
    "uptime": {
     "d1": 100,
@@ -178,7 +178,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 398,
+   "p50": 397,
    "p95": 1976
   },
   {
@@ -189,10 +189,10 @@
    "type": "tcp",
    "state": "up",
    "ok": true,
-   "ms": 4,
+   "ms": 9,
    "code": 0,
    "error": null,
-   "checkedAt": 1795723469960,
+   "checkedAt": 1795747581520,
    "certDays": null,
    "uptime": {
     "d1": 100,
@@ -200,7 +200,7 @@
     "d30": 100,
     "d90": 100
    },
-   "p50": 8,
+   "p50": 9,
    "p95": 11
   }
  ]
